@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"><html>
+<title>Directory listing for /</title>
+<body>
+<h2>Directory listing for /</h2>
+<hr>
+<ul>
+<li><a href="curl_out.txt">curl_out.txt</a>
+<li><a href="test.txt">test.txt</a>
+<li><a href="test1.txt">test1.txt</a>
+<li><a href="test2.txt">test2.txt</a>
+</ul>
+<hr>
+</body>
+</html>

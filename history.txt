@@ -1,0 +1,26 @@
+  123  python --version
+  124  python -m SimpleHTTPServer 8000 &
+  125  cd test/
+  126  sudo netstat -tulpn | grep 8000
+  127  clear
+  128  sudo curl -o curl_out.txt 192.168.56.107:8000
+  129  cat curl_out.txt
+  130  clear
+  131  sudo apt-get update
+  132  sudo apt-get install nginx
+  133  systemctl status nginx
+  134  cd /etc/nginx/
+  135  ll
+  136  nano nginx.conf 
+  137  ll
+  138  cd sites-enabled/
+  139  ll
+  140  sudo nano default
+  141  nginx -t
+  142  systemctl restart nginx
+  143  service nginx restart 
+  144  systemctl status nginx
+  144  history
+  145  history >history.txt
+  146  cd /etc/nginx/sites-enabled/
+  147  sudo mv default /home/aleksey/test/
